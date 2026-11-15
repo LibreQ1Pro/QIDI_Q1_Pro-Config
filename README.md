@@ -9,7 +9,8 @@ Configs and firmware settings for the QIDI Q1 Pro on Klipper
 ```
 klipper/
 ├── printer.cfg        # printer configuration
-└── gcode_macro.cfg    # macros (included from printer.cfg)
+├── gcode_macro.cfg    # macros (included from printer.cfg)
+└── crowsnest.conf     # camera settings (crowsnest: /dev/webcam, 1280x720)
 firmware/
 ├── klipper/           # Klipper firmware .config files for the boards
 └── katapult/          # Katapult .config files for the boards
